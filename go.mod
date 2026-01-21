@@ -1,4 +1,4 @@
-module github.com/ArtexOS/DesktopEntryCreatorGUI
+module github.com/libgophertin/DesktopEntryCreatorGUI
 
 go 1.25.6
 

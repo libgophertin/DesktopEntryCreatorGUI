@@ -6,13 +6,13 @@ import (
 	"fyne.io/fyne/v2/container"
 	"fyne.io/fyne/v2/dialog"
 	"fyne.io/fyne/v2/widget"
-	"github.com/ArtexOS/DesktopEntryCreatorGUI/config"
+	"github.com/libgophertin/DesktopEntryCreatorGUI/models"
 )
 
 func main() {
 	a := app.New()
 	w := a.NewWindow("Выбор файла")
-	var conf config.AppConfig
+	var conf models.DesktopEntry
 
 	appNameLabel := widget.NewLabel("App Name:")
 	appName := widget.NewEntry()
