@@ -18,7 +18,6 @@ func (a *App) NewUI() {
 func (a *App) Run() {
 	content := a.BuildForm()
 	a.MainWindow.SetContent(content)
-	//w.SetContent(container.NewVBox(appNameLabel, appName, execFileLabel, execPathButton, iconFileLabel, iconPathButton, categoryLabel, category))
-	a.MainWindow.Resize(fyne.NewSize(400, 600))
+	a.MainWindow.Resize(fyne.NewSize(600, 600))
 	a.MainWindow.ShowAndRun()
 }
